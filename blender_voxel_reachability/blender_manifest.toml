@@ -1,0 +1,25 @@
+# blender_manifest.toml
+schema_version = "1.0.0"
+id = "blender_voxel_reachability"
+version = "1.0.3"
+name = "Voxel Reachability Analysis"
+tagline = "Compute reachable space in IFC models using voxelization"
+maintainer = "GSoC Contributor"
+license = ["GPL-2.0-or-later"]
+type = "add-on"
+
+# For Blender 5.0+ we need to specify this
+blender_version_min = "4.2.0"
+
+# Metadata
+website = "https://github.com/yourusername/blender_voxel_reachability"
+description = "This extension adds reachability analysis tools to the BIM sidebar."
+
+# List of folders to ignore when zipping (optional but good practice)
+[build]
+ignore = [
+    "*.pyc",
+    "__pycache__/",
+    ".git/",
+    "README.md"
+]

@@ -1,0 +1,24 @@
+# blender_manifest.toml – required for Blender 4.2+ extension system
+schema_version = "1.0.0"
+id = "blender_voxelization_bundle"
+version = "1.0.1"
+name = "Voxelization Bundle"
+tagline = "Bundles the voxec voxelization library for Blender"
+maintainer = "GSoC Contributor"
+license = ["GPL-2.0-or-later"]
+type = "add-on"
+
+# Minimum Blender version (same floor as blender_voxel_reachability)
+blender_version_min = "4.2.0"
+
+# Metadata
+website = "https://github.com/yourusername/blender_voxelization_bundle"
+description = "Self-contained bundle of the voxec voxelization library, ready to be imported by other addons or used directly in Blender's Python environment."
+
+[build]
+ignore = [
+    "*.pyc",
+    "__pycache__/",
+    ".git/",
+    "README.md"
+]

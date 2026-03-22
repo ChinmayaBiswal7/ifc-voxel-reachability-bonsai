@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Blender temporary files
+*.blend1
+*.blend2
+
+# ZIP files (if you want to keep them local but not in git, 
+# but usually for a PoC you DO want them in git. 
+# I'll leave them un-ignored for now as the user asked to keep them.)
+
+# Logs
+*.log

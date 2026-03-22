@@ -1,0 +1,25 @@
+# REACHABILITY ANALYSIS - EXECUTION SYNTAX
+
+# ==========================================
+# 1. MESH (2 Syntaxes)
+# ==========================================
+
+# A) STANDALONE (PyVista)
+# Run this like a 'normal file' to see the mesh outside of Blender.
+python reachability.py Duplex_A_20110907.ifc
+
+# B) BLENDER
+# Run this to create a real, selectable mesh inside Blender.
+& "C:\Program Files\Blender Foundation\Blender 4.1\blender.exe" --python reachability.py -- --mode mesh Duplex_A_20110907.ifc
+
+
+# ==========================================
+# 2. DECORATOR (1 Syntax)
+# ==========================================
+
+# BLENDER ONLY
+# Run this for a fast, temporary GPU overlay (no objects added to scene).
+& "C:\Program Files\Blender Foundation\Blender 4.1\blender.exe" --python reachability.py -- --mode decor Duplex_A_20110907.ifc
+
+---
+Note: Full path to Blender is: C:\Program Files\Blender Foundation\Blender 4.1\blender.exe
