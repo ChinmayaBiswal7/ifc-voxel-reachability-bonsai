@@ -2,7 +2,7 @@
 
 This project provides a native Blender Addon and Extension for high-performance reachability analysis within building IFC models. It integrates directly with the **Bonsai (BlenderBIM)** ecosystem.
 
-## 🌟 GSoC 2024 Proof of Concept
+## 🌟 GSoC 2026 Proof of Concept
 This repository demonstrates a production-ready approach for spatial analysis in BIM workflows:
 - **Native Library Bundling**: The `voxec` C++ binary is fully bundled inside a Blender Extension, making it a zero-installation, self-contained tool.
 - **Bonsai UI Integration**: A custom UI panel is integrated directly into the Bonsai sidebar.
